@@ -6,7 +6,7 @@
   "d1_databases": [
     {
       "binding": "CLIENTES_DB",
-      "database_name": "presagio-clientes",
+      "database_name": "presagio-clientes-db",
       "database_id": "056a486e-2535-499f-a43e-8b19e0a86a7f"
     }
   ]
