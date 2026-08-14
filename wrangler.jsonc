@@ -1,0 +1,13 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "grabados-presagio",
+  "pages_build_output_dir": ".",
+  "compatibility_date": "2026-08-13",
+  "d1_databases": [
+    {
+      "binding": "CLIENTES_DB",
+      "database_name": "presagio-clientes",
+      "database_id": "REEMPLAZAR_CON_DATABASE_ID"
+    }
+  ]
+}
