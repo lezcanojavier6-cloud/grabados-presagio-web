@@ -1,25 +1,42 @@
-GRABADOS PRESAGIO - WEB INSTITUCIONAL FINAL
+GRABADOS PRESAGIO — WEB + COTIZADOR UV 2026
 
-Esta versión usa el logo original enviado por Javier y está enfocada en:
-- Grabado láser
-- Impresión UV
-- DTF UV / stickers UV
-- Fotograbado
-- Cartelería
-- Personalización
+Sitio principal conservado y ampliado.
 
-No contiene oferta comercial de cuchillos.
+PÁGINAS
+- /index.html: web principal original de Grabados Presagio, conservada y enlazada al cotizador.
+- /dtf-uv.html: página comercial/cotizador para DTF UV, prediseñadas, vinilos UV, UV directa y grabado láser.
+- /admin-clientes/: panel privado de clientes y consultas.
 
-IMPORTANTE PARA META:
-1. Publicar la carpeta completa.
-2. Verificar que la URL pública abra correctamente.
-3. Colocar esa URL como "Sitio web" del portfolio comercial.
-4. Recién después solicitar revisión.
+CONTACTO TEMPORAL
+- Teléfono / WhatsApp usado por la web y cotizadores: +54 9 11 6988-8499.
 
-Datos comerciales:
-Grabados Presagio
-Guarani 380, Lomas de Zamora, Buenos Aires, CP 1832
-+54 11 6124-4445
-grabadoslaserpresagio@gmail.com
-Instagram: @GrabadosPresagio
-Actualización de despliegue 14-08-2026
+DTF UV
+- Plancha real: 29,7 × 91 cm.
+- Separación de cálculo: 0,45 mm.
+- Las planchas nunca se fraccionan.
+- El sistema prueba ambas orientaciones y redondea planchas hacia arriba.
+- Escala interna de impresión: 1–2 $24.000 c/u; 3–4 $23.000; 5–9 $22.000; 10–19 $21.000; 20 $20.000; más de 20 pasa a precio mayorista especial.
+- Reglas internas de armado con archivo apto: un diseño por plancha sin cargo; varios diseños combinados 2–5: $5.000 por plancha; más de 5: $9.000 por plancha.
+- Archivo no obligatorio. Si requiere mejora/rediseño, queda a evaluación antes de producir.
+
+PREDISEÑADAS
+- Cotización automática por planchas.
+- Diseño/armado sin cargo con diseños de catálogo.
+- El catálogo NO está publicado en la web: se solicita obligatoriamente por WhatsApp luego de registrar datos y cotización.
+
+VINILOS UV
+- Plancha: 54 × 86 cm.
+- Blanco mate, blanco brillante, blanco laqueado, holográfico, dorado brillante y plateado brillante.
+- Troquelado incluido.
+- Por ahora cotización manual/asistida; queda preparado para automatización futura.
+
+UV DIRECTA
+- Mesa útil hasta 60 × 91 cm.
+- Cotización asistida por ahora.
+
+GRABADO LÁSER
+- Cotización asistida: nombres/frases, logos, fotograbado común/HD, profundidad, QR/numeración y asesoramiento.
+
+IMPORTANTE
+- No se incluye el archivo catalogo-presagio-2026.png que estaba mezclado en la web anterior.
+- El archivo no se sube todavía desde la web: el cliente indica qué tiene y puede enviarlo por WhatsApp. Se evitó simular una carga que no estuviera realmente almacenada.

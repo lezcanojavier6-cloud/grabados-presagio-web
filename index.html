@@ -16,13 +16,13 @@
     a{color:inherit}.wrap{max-width:1160px;margin:auto;padding:0 22px}
     header{position:sticky;top:0;z-index:20;background:rgba(9,11,16,.88);backdrop-filter:blur(14px);border-bottom:1px solid rgba(255,255,255,.06)}
     nav{height:74px;display:flex;align-items:center;justify-content:space-between;gap:22px}
-    .brand{display:flex;align-items:center;gap:12px;text-decoration:none;font-weight:800;letter-spacing:.2px}.brand img{width:46px;height:46px;border-radius:50%;object-fit:cover;border:1px solid rgba(216,183,101,.5)}.brand small{display:block;color:var(--muted);font-weight:500;letter-spacing:.6px}
+    .brand{display:flex;align-items:center;gap:12px;text-decoration:none;font-weight:800;letter-spacing:.2px}.brand img{width:46px;height:auto;object-fit:contain;border:0;border-radius:0;background:transparent}.brand small{display:block;color:var(--muted);font-weight:500;letter-spacing:.6px}
     .navlinks{display:flex;gap:18px;align-items:center}.navlinks a{text-decoration:none;color:#d8dee8;font-size:14px}.cta{padding:10px 15px;border:1px solid #44536a;border-radius:999px;background:#151b24}
     .hero{padding:78px 0 52px}.hero-grid{display:grid;grid-template-columns:1.12fr .88fr;gap:48px;align-items:center}
     .eyebrow{display:inline-flex;gap:8px;align-items:center;padding:7px 11px;border:1px solid rgba(77,156,255,.42);border-radius:999px;color:#9fc9ff;background:rgba(77,156,255,.08);font-size:13px;font-weight:700;text-transform:uppercase;letter-spacing:1px}
     h1{font-size:clamp(42px,7vw,74px);line-height:.98;margin:20px 0 22px;letter-spacing:-3px}h1 span{color:var(--gold)}
     .lead{font-size:19px;color:#c3cad5;max-width:720px}.actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}.btn{display:inline-flex;align-items:center;justify-content:center;padding:13px 18px;border-radius:12px;text-decoration:none;font-weight:800}.btn.primary{background:linear-gradient(135deg,#eef3f8,#9ba9ba 45%,#4d9cff);color:#07101c}.btn.secondary{border:1px solid #334055;background:#10151d;color:#eef2f7}
-    .hero-card{background:radial-gradient(circle at 50% 38%,#17345f 0,#101722 38%,#090b10 72%);border:1px solid #56606d;border-radius:28px;padding:28px;box-shadow:0 22px 70px rgba(0,0,0,.5),inset 0 0 55px rgba(71,139,255,.08)}.hero-card img{width:min(100%,520px);display:block;margin:auto;border-radius:50%;filter:drop-shadow(0 18px 32px rgba(0,0,0,.55))}
+    .hero-card{background:radial-gradient(circle at 50% 38%,#17345f 0,#101722 38%,#090b10 72%);border:1px solid #56606d;border-radius:28px;padding:28px;box-shadow:0 22px 70px rgba(0,0,0,.5),inset 0 0 55px rgba(71,139,255,.08)}.hero-card img{width:min(100%,520px);height:auto;display:block;margin:auto;object-fit:contain;border:0;border-radius:0;background:transparent;filter:drop-shadow(0 18px 32px rgba(0,0,0,.55))}
     section{padding:58px 0}.kicker{color:var(--gold);font-weight:800;text-transform:uppercase;letter-spacing:1.4px;font-size:13px}.section-title{font-size:clamp(30px,4.3vw,46px);line-height:1.08;margin:8px 0 12px;letter-spacing:-1.5px}.section-copy{color:var(--muted);max-width:760px}
     .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:28px}.card{background:linear-gradient(180deg,#131922,#0d1117);border:1px solid var(--line);border-radius:20px;padding:24px}.card h3{margin:12px 0 8px}.icon{font-size:27px}.card p{margin:0;color:#aeb7c5}
     .materials{display:flex;flex-wrap:wrap;gap:10px;margin-top:24px}.pill{border:1px solid #2d3848;border-radius:999px;padding:9px 12px;background:#10151d;color:#d8dee8;font-size:14px}
@@ -50,7 +50,7 @@
     "@type":"LocalBusiness",
     "name":"Grabados Presagio",
     "description":"Grabado láser, impresión UV, DTF UV, fotograbado, cartelería y personalización de productos.",
-    "telephone":"+54 11 6124-4445",
+    "telephone":"+54 11 6988-8499",
     "email":"grabadoslaserpresagio@gmail.com",
     "address":{
       "@type":"PostalAddress",
@@ -74,8 +74,8 @@
         <span>Grabados Presagio<small>Grabado láser · Impresión UV</small></span>
       </a>
       <div class="navlinks">
-        <a href="#servicios">Servicios</a><a href="#trabajos">Trabajos</a><a href="#nosotros">Nosotros</a><a href="#registro">Registro</a>
-        <a class="cta" href="#contacto">Contacto</a>
+        <a href="#servicios">Servicios</a><a href="#trabajos">Cotizador</a><a href="#nosotros">Nosotros</a><a href="#registro">Registro</a>
+        <a class="cta" href="dtf-uv.html">Cotizar DTF UV</a>
       </div>
     </nav>
   </div>
@@ -90,7 +90,7 @@
         <p class="lead">En Grabados Presagio transformamos diseños, marcas, fotos y nombres en trabajos personalizados mediante grabado láser, impresión UV, DTF UV y fotograbado. Atención a particulares, comercios y empresas.</p>
         <div class="actions">
           <a class="btn primary" href="https://www.instagram.com/grabadospresagio/" target="_blank" rel="noopener">Ver trabajos en Instagram</a>
-          <a class="btn secondary" href="#contacto">Datos de contacto</a>
+          <a class="btn secondary" href="dtf-uv.html">Cotizar DTF UV</a>
         </div>
       </div>
       <div class="hero-card">
@@ -107,7 +107,7 @@
       <div class="grid">
         <article class="card"><div class="icon">✦</div><h3>Grabado láser</h3><p>Textos, nombres, logotipos, escudos, códigos QR, numeraciones y fotograbado sobre materiales compatibles.</p></article>
         <article class="card"><div class="icon">◈</div><h3>Impresión UV</h3><p>Impresión directa en alta definición sobre acrílico, PVC, madera, metal, vidrio, cuero y otros soportes compatibles.</p></article>
-        <article class="card"><div class="icon">⬡</div><h3>DTF UV</h3><p>Stickers y transfer UV personalizados con excelente definición para marcas, objetos, packaging, regalos y producción comercial.</p></article>
+        <article class="card"><div class="icon">⬡</div><h3>DTF UV</h3><p>Stickers y transfer UV personalizados con excelente definición para marcas, objetos, packaging, regalos y producción comercial.</p><div class="actions"><a class="btn secondary" href="dtf-uv.html">Cotizar online</a></div></article>
         <article class="card"><div class="icon">▣</div><h3>Cartelería</h3><p>Producción de piezas gráficas, placas, señalética y carteles personalizados para comercios, eventos e instituciones.</p></article>
         <article class="card"><div class="icon">◎</div><h3>Fotograbado</h3><p>Fotograbado común, en profundidad y trabajos de alta definición según el material y el resultado buscado.</p></article>
         <article class="card"><div class="icon">✎</div><h3>Personalización</h3><p>Regalos, artículos promocionales, mates, termos, llaveros, medallas, placas y productos desarrollados a medida.</p></article>
@@ -117,13 +117,10 @@
 
   <section id="trabajos">
     <div class="wrap">
-      <div class="kicker">Muestras</div>
-      <h2 class="section-title">Acabados que se ven</h2>
-      <p class="section-copy">Ejemplos de líneas visuales, acabados y aplicaciones desarrolladas para trabajos gráficos y personalizados.</p>
-      <div class="showcase">
-        <img src="assets/catalogo-presagio-2026.png" alt="Catálogo de acabados de Grabados Presagio">
-        <div class="caption">Selección de acabados y aplicaciones de Grabados Presagio. Para trabajos recientes, visitar nuestro Instagram oficial.</div>
-      </div>
+      <div class="kicker">Cotización online</div>
+      <h2 class="section-title">DTF UV y producción gráfica</h2>
+      <p class="section-copy">Calculá DTF UV personalizado, pedí el catálogo de planchas prediseñadas y consultá stickers en vinilo UV, impresión UV directa o grabado láser. Tus datos quedan registrados antes de continuar por WhatsApp para no perder la consulta.</p>
+      <div class="actions"><a class="btn primary" href="dtf-uv.html">Abrir cotizador</a><a class="btn secondary" href="dtf-uv.html#vinilos">Consultar vinilos UV</a></div>
     </div>
   </section>
 
@@ -208,7 +205,7 @@
             <p class="section-copy">Consultanos por medidas, materiales, cantidades y tipo de personalización. Podemos orientarte sobre la alternativa más adecuada para tu trabajo.</p>
           </div>
           <div class="contactlist">
-            <div><strong>Teléfono</strong><a href="tel:+541161244445">+54 11 6124-4445</a><small>Contacto comercial</small></div>
+            <div><strong>Teléfono</strong><a href="tel:+541169888499">+54 11 6988-8499</a><small>Contacto temporal</small></div>
             <div><strong>Email</strong><a href="mailto:grabadoslaserpresagio@gmail.com">grabadoslaserpresagio@gmail.com</a></div>
             <div><strong>Instagram</strong><a href="https://www.instagram.com/grabadospresagio/" target="_blank" rel="noopener">@grabadospresagio</a></div>
             <div><strong>Dirección</strong><span>Guarani 380, Lomas de Zamora, Buenos Aires, CP 1832</span></div>

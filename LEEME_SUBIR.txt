@@ -1,0 +1,19 @@
+PRESAGIO — PASOS PARA SUBIR ESTA VERSIÓN
+
+1. Hacer copia de seguridad de la versión actualmente publicada.
+2. Mantener el binding D1 existente con nombre CLIENTES_DB.
+3. Ejecutar schema.sql UNA VEZ en la base D1. Usa CREATE TABLE IF NOT EXISTS y no borra clientes.
+4. Mantener configurados ADMIN_USER y ADMIN_PASSWORD para /admin-clientes/.
+5. Publicar todos los archivos de este ZIP en el mismo proyecto de la web actual.
+6. Probar primero: / ; /dtf-uv.html ; /admin-clientes/
+7. Hacer una cotización de prueba con datos propios y confirmar:
+   - cálculo correcto de planchas;
+   - registro en el panel;
+   - apertura de WhatsApp al +54 9 11 6988-8499.
+8. Recién después activar Google Ads.
+
+URL RECOMENDADA GOOGLE ADS:
+https://grabadospresagio.com.ar/dtf-uv.html?utm_source=google&utm_medium=cpc&utm_campaign=dtf_uv
+
+
+AJUSTE FINAL: el logo se muestra sin recorte circular, sin borde exterior agregado y respetando el archivo original.
