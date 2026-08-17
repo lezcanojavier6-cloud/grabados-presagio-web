@@ -7,12 +7,12 @@ PÁGINAS
 - /dtf-uv.html: página comercial/cotizador para DTF UV, prediseñadas, vinilos UV, UV directa y grabado láser.
 - /admin-clientes/: panel privado de clientes y consultas.
 
-CONTACTO TEMPORAL
+CONTACTO ACTUAL
 - Teléfono / WhatsApp usado por la web y cotizadores: +54 9 11 6988-8499.
 
 DTF UV
 - Plancha real: 29,7 × 91 cm.
-- Separación de cálculo: 0,45 mm.
+- Separación interna de cálculo: 4,5 mm.
 - Las planchas nunca se fraccionan.
 - El sistema prueba ambas orientaciones y redondea planchas hacia arriba.
 - Escala interna de impresión: 1–2 $24.000 c/u; 3–4 $23.000; 5–9 $22.000; 10–19 $21.000; 20 $20.000; más de 20 pasa a precio mayorista especial.
