@@ -1,0 +1,6 @@
+PARCHE LOGO PRESAGIO
+
+1. Estos HTML ya apuntan a: assets/logo-presagio-transparente.png
+2. Colocá dentro de la carpeta assets tu PNG transparente con EXACTAMENTE ese nombre.
+3. Subí index.html, dtf-uv.html y assets/logo-presagio-transparente.png al repositorio.
+4. No se modificó ninguna otra parte de la web.
