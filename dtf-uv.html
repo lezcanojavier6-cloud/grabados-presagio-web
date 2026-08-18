@@ -9,6 +9,28 @@
   gtag('js', new Date());
   gtag('config', 'AW-819340921');
 </script>
+<!-- Google Ads conversion event: Clic en WhatsApp -->
+<script>
+function gtag_report_conversion(url) {
+  var callback = function () {
+    if (typeof(url) != 'undefined') {
+      window.location = url;
+    }
+  };
+  if (typeof gtag === 'function') {
+    gtag('event', 'conversion', {
+      'send_to': 'AW-819340921/njH9CO-7s-McEPnM2IYD',
+      'event_callback': callback
+    });
+    // Fallback por si el callback no se ejecuta.
+    setTimeout(callback, 1200);
+  } else {
+    callback();
+  }
+  return false;
+}
+</script>
+
 
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -77,7 +99,7 @@ function utm(){const u=new URLSearchParams(location.search);return {origen:u.get
 async function saveLead(data){const u=utm();const res=await fetch('/api/cotizacion',{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify({...data,...u})});const j=await res.json();if(!res.ok)throw new Error(j.error||'No se pudo guardar la consulta.');cacheIdentity(data.nombre,data.whatsapp,data.email,data.empresa||'');return j}
 function cacheIdentity(nombre,wa,email,empresa=''){localStorage.setItem('presagioLead',JSON.stringify({nombre,wa,email,empresa}))}
 function fillIdentity(){let d={};try{d=JSON.parse(localStorage.getItem('presagioLead')||'{}')}catch{};const pairs=[['dtfNombre','nombre'],['dtfWhatsapp','wa'],['dtfEmail','email'],['dtfEmpresa','empresa'],['preNombre','nombre'],['preWhatsapp','wa'],['preEmail','email'],['preEmpresa','empresa'],['vinNombre','nombre'],['vinWhatsapp','wa'],['vinEmail','email'],['uvNombre','nombre'],['uvWhatsapp','wa'],['uvEmail','email'],['laNombre','nombre'],['laWhatsapp','wa'],['laEmail','email']];for(const [id,k] of pairs)if($(id)&&!$(id).value&&d[k])$(id).value=d[k]}
-function waOpen(msg){location.href='https://wa.me/'+WA+'?text='+encodeURIComponent(msg)}
+function waOpen(msg){const url='https://wa.me/'+WA+'?text='+encodeURIComponent(msg);return gtag_report_conversion(url)}
 function showStatus(id,msg,type='ok'){$(id).textContent=msg;$(id).className='status '+type}
 function setBusy(form,busy){const b=form.querySelector('button[type=submit]');if(b)b.disabled=busy}
 

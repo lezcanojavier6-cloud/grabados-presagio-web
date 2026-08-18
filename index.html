@@ -9,6 +9,28 @@
   gtag('js', new Date());
   gtag('config', 'AW-819340921');
 </script>
+<!-- Google Ads conversion event: Clic en WhatsApp -->
+<script>
+function gtag_report_conversion(url) {
+  var callback = function () {
+    if (typeof(url) != 'undefined') {
+      window.location = url;
+    }
+  };
+  if (typeof gtag === 'function') {
+    gtag('event', 'conversion', {
+      'send_to': 'AW-819340921/njH9CO-7s-McEPnM2IYD',
+      'event_callback': callback
+    });
+    // Fallback por si el callback no se ejecuta.
+    setTimeout(callback, 1200);
+  } else {
+    callback();
+  }
+  return false;
+}
+</script>
+
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
